@@ -1,4 +1,5 @@
-def call( Map settings = [:] ){
+hi()
+ 
+def hi() {
     println("Hello World!")
 }
- 
