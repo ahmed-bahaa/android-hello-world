@@ -1,5 +1,2 @@
-hi()
- 
-def hi() {
-    println("Hello World!")
-}
+#!/usr/local/bin/groovy
+println "hello world"
