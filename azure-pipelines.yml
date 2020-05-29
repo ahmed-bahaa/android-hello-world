@@ -16,7 +16,7 @@ steps:
     script: |
       ls
       pwd
-      hi.groovy
+      ./hi.groovy
 
 - task: Gradle@2
   inputs:
