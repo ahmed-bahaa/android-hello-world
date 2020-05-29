@@ -10,6 +10,14 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      ls
+      pwd
+      hi.groovy
+
 - task: Gradle@2
   inputs:
     workingDirectory: ''
