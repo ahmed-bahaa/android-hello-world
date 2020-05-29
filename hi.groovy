@@ -1,2 +1,4 @@
-#!/usr/local/bin/groovy
-println "hello world"
+def call( Map settings = [:] ){
+    println("Hello World!")
+}
+ 
