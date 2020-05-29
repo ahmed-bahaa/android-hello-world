@@ -17,7 +17,7 @@ steps:
       ls
       pwd
       chmod +x hi.groovy
-      ./hi.groovy
+      groovy hi.groovy
 
 - task: Gradle@2
   inputs:
