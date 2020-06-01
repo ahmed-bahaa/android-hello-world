@@ -23,4 +23,5 @@ steps:
   inputs:
     script: |
       chmod +x hi.groovy
+      echo "hi"
       groovy hi.groovy
