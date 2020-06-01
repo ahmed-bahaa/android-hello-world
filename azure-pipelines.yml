@@ -25,3 +25,4 @@ steps:
       chmod +x hi.groovy
       echo "hi"
       groovy hi.groovy
+      groovy --version
