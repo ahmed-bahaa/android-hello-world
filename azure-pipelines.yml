@@ -8,8 +8,6 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-  demands:
-   - groovy
 
 steps:
 
@@ -18,6 +16,7 @@ steps:
     script: |
       ls
       pwd
+      sudo apt-get install groovy
       chmod +x hi.groovy
       groovy hi.groovy
 
